@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://jaist.dl.sourceforge.net/project/evolution-x/guacamoleb/EvolutionX_5.3_guacamoleb-11-20210106-0923-OFFICIAL.zip
-  ROM_NAME: Generic Pixel
+  ROM_URL: http://download.h2os.com/OnePlus7/OBT/OnePlus7Hydrogen_13.X.55_OTA_0550_all_2101102318_4421ccf356ea4ad2.zip
+  ROM_NAME: Pixel
   TZ: Asia/Shanghai
 
 jobs:
