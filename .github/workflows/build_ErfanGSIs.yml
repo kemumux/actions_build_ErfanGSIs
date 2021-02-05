@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/OnePlus7/OBT/OnePlus7Hydrogen_13.X.55_OTA_0550_all_2101102318_4421ccf356ea4ad2.zip
-  ROM_NAME: Pixel
+  ROM_URL: https://download.havoc-os.com/cepheus/Havoc-OS-v4.1-20210128-cepheus-Official.zip
+  ROM_NAME: Generic
   TZ: Asia/Shanghai
 
 jobs:
@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer gof final/GSI.zip
 
          
             
